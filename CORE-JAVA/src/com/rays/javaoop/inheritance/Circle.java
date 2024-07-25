@@ -12,8 +12,10 @@ public class Circle extends Shape {
 		this.r = r;
 	}
 
-	public void area() {
-		System.out.println(r * r * 3.14);
+	@Override
+	public double area() {
+		double area = r * r * 3.14;
+		return area;
 	}
 
 }
