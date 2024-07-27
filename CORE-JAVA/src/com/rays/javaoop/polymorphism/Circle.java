@@ -24,11 +24,9 @@ public class Circle extends Shape {
 
 	@Override
 	public double area() {
-
-		double area = r * r * PI;
-
-		return area;
-
+		// TODO Auto-generated method stub
+		return r * r * PI;
 	}
+	
 
 }
