@@ -20,6 +20,8 @@ public class TestIterator {
 		System.out.println("------------");
 
 		Iterator it = c.iterator();
+		
+		c.add("abc");
 
 		while (it.hasNext()) {
 
