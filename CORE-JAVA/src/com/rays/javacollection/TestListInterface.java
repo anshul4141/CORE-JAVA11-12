@@ -1,8 +1,8 @@
 package com.rays.javacollection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import java.util.ListIterator;
 
 // list contain multiple null value
 // list contain multiple duplicate value
@@ -14,24 +14,35 @@ public class TestListInterface {
 		List list = new ArrayList();
 
 		list.add(5);
-		list.add('a');
-		list.add('a');
-		list.add(null);
-		list.add(null);
-		list.add("kgf");
+		list.add(4);
+		list.add(3);
 
-		// System.out.println(list.indexOf("kgf"));
-		// list.set(5, "kalki");
+		System.out.println(list);
+		System.out.println("-------------");
+		Collections.sort(list);
 
-		list.add(5, "kgf2");
+		System.out.println(list);
 
-		ListIterator lit = list.listIterator();
+		System.out.println("------------");
 
-		while (lit.hasNext()) {
+		Collections.shuffle(list);
 
-			System.out.println(lit.next());
+		System.out.println(list);
 
-		}
+//		list.forEach(System.out::println);
+//
+//		// System.out.println(list.indexOf("kgf"));
+//		// list.set(5, "kalki");
+//
+//		list.add(5, "kgf2");
+//
+//		ListIterator lit = list.listIterator();
+//
+//		while (lit.hasNext()) {
+//
+//			System.out.println(lit.next());
+//
+//		}
 
 	}
 
