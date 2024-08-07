@@ -19,6 +19,7 @@ public class TestListInterface {
 
 		System.out.println(list);
 		System.out.println("-------------");
+
 		Collections.sort(list);
 
 		System.out.println(list);
