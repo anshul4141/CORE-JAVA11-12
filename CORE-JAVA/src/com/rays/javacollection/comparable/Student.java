@@ -18,7 +18,7 @@ public class Student implements Comparable<Student> {
 	@Override
 	public int compareTo(Student o) {
 		// TODO Auto-generated method stub
-		 return o.id - this.id;
+		 return this.id - o.id;
 
 		//return this.name.compareTo(o.name);
 	}
