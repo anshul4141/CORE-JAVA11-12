@@ -10,6 +10,8 @@ package com.rays.basic;
  */
 public class Operator {
 
+	// = Assignment operator
+
 	/**
 	 * Assignment operator (`=`) is used to assign the value of the right-hand
 	 * operand to the left-hand operand. For example:
@@ -18,7 +20,8 @@ public class Operator {
 	 * int x = 10; // assigns the value 10 to variable x
 	 * </pre>
 	 */
-	// = Assignment operator
+
+	// == Equal operator
 
 	/**
 	 * Equality operator (`==`) checks if two operands are equal. It returns `true`
@@ -30,7 +33,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// == Equal operator
+
+	// != Not Equal operator
 
 	/**
 	 * Not equal operator (`!=`) checks if two operands are not equal. It returns
@@ -42,7 +46,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// != Not Equal operator
+
+	// > Greater Than operator
 
 	/**
 	 * Greater than operator (`>`) checks if the left operand is greater than the
@@ -54,7 +59,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// > Greater Than operator
+
+	// < Less Than operator
 
 	/**
 	 * Less than operator (`<`) checks if the left operand is less than the right
@@ -66,7 +72,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// < Less Than operator
+
+	// <= Less Than or Equal operator
 
 	/**
 	 * Less than or equal to operator (`<=`) checks if the left operand is less than
@@ -79,7 +86,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// <= Less Than or Equal operator
+
+	// >= Greater Than or Equal operator
 
 	/**
 	 * Greater than or equal to operator (`>=`) checks if the left operand is
@@ -92,7 +100,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// >= Greater Than or Equal operator
+
+	// && And operator
 
 	/**
 	 * Logical AND operator (`&&`) returns `true` if both operands are `true`. It is
@@ -104,7 +113,8 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// && And operator
+
+	// || Or operator
 
 	/**
 	 * Logical OR operator (`||`) returns `true` if at least one of the operands is
@@ -116,6 +126,5 @@ public class Operator {
 	 * }
 	 * </pre>
 	 */
-	// || Or operator
 
 }
