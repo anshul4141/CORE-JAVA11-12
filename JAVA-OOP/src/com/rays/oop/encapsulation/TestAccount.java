@@ -18,7 +18,6 @@ public class TestAccount {
 		a.deposit(500.0);
 		System.out.println("Total Amount after deposit = " + a.getBalance());
 		a.withdrawal(200.0);
-		System.out.println("Toatal Amount after withdrawal = " + a.getBalance());
 		System.out.println("Finle Amount = " + a.getBalance());
 
 	}

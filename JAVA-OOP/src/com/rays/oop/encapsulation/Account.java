@@ -38,7 +38,13 @@ public class Account {
 
 	public double withdrawal(double amt) {
 
-		return this.balance = this.balance - amt;
+		if (amt > this.balance) {
+			System.out.println("insufficeant ammount");
+		} else {
+			return this.balance = this.balance - amt;
+		}
+
+		return this.balance;
 
 	}
 

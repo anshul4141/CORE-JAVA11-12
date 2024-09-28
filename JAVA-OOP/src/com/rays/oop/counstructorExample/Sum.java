@@ -1,5 +1,6 @@
 package com.rays.oop.counstructorExample;
 
+// constructor overlodin diffrent param and diffrent data types
 public class Sum {
 
 	// defalut Constructor

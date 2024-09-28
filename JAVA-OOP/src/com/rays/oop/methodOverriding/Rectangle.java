@@ -1,26 +1,20 @@
-package com.rays.oop.inheritance;
+package com.rays.oop.methodOverriding;
 
 public class Rectangle extends Shape {
 
 	private int lenght;
 	private int breath;
 
-	public int getLenght() {
-		return lenght;
+	public Rectangle() {
+		// TODO Auto-generated constructor stub
 	}
 
-	public void setLenght(int lenght) {
+	public Rectangle(int lenght, int breath) {
 		this.lenght = lenght;
-	}
-
-	public int getBreath() {
-		return breath;
-	}
-
-	public void setBreath(int breath) {
 		this.breath = breath;
 	}
 
+	@Override
 	public double area() {
 
 		double area = lenght * breath;
