@@ -21,7 +21,7 @@ public class Shape {
 		this.borderWidth = borderWidth;
 	}
 
-	public double area() {
+	public  double area() {
 
 		return 0.0;
 
