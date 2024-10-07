@@ -8,19 +8,17 @@ public class DateExample {
 
 	public static void main(String[] args) throws ParseException {
 
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
 		Date d = new Date();
 
 		System.out.println(sdf.format(d));
 
-		System.out.println("---------------------");
+		System.out.println("---------------");
 
-		String date = "2002/01/25";
+		String dob = "2002-02-02";
 
-		Date d1 = sdf.parse(date);
-
-		System.out.println(d1);
+		System.out.println(sdf.parse(dob));
 
 	}
 

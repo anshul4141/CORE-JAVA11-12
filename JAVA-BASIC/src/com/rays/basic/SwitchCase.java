@@ -7,12 +7,15 @@ public class SwitchCase {
 		int month = 4;
 
 		switch (month) {
+
 		case 1:
 			System.out.println("jan");
 			break;
+
 		case 2:
 			System.out.println("feb");
 			break;
+
 		case 3:
 			System.out.println("march");
 			break;
