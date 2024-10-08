@@ -12,7 +12,7 @@ public class TestException {
 			System.out.println(i / 5);
 			System.out.println(str.length());
 
-		} catch (RuntimeException e) {
+		} catch (ArithmeticException e) {
 
 			System.out.println(e.getMessage() + " in catch block");
 
