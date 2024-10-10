@@ -11,29 +11,28 @@ public class TestCollection {
 		Collection c = new ArrayList();
 
 		c.add(5);
+		c.add(56.2);
 		c.add("KGF");
-		c.add(5.2);
 		c.add(true);
 		c.add('a');
 
-		System.out.println("collection = " + c);
-		System.out.println("---------forEach---------");
+		System.out.println("c = " + c);
 
-		for (Object o : c) {
+		System.out.println("--------forEach--------");
 
-			System.out.println(o);
+		for (Object e : c) {
+
+			System.out.println(e);
 
 		}
 
-		System.out.println("--------Iterator--------");
+		System.out.println("----------Iterator----------");
 
-		Iterator i = c.iterator();
+		Iterator it = c.iterator();
 
-		while (i.hasNext()) {
+		while (it.hasNext()) {
 
-			Object o1 = i.next();
-
-			System.out.println(o1);
+			System.out.println(it.next());
 
 		}
 
