@@ -6,7 +6,7 @@ public class ReadTextFile {
 
 	public static void main(String[] args) throws Exception {
 
-		FileReader r = new FileReader("D:\\IO\\Hello.txt");
+		FileReader r = new FileReader("D://IO//Sunilos.txt");
 
 		int i = r.read();
 
