@@ -11,7 +11,7 @@ public class TestPriorityQueue {
 
 		p.add("KGF");
 		p.add("Ram");
-		p.add(2);
+		// p.add(2);
 		
 		System.out.println(p);
 
