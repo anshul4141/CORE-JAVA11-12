@@ -5,14 +5,16 @@ import java.util.List;
 
 public class FindOddNo {
 
-	public static boolean findOdd(Integer i) {
+	public static boolean findOdd(int i) {
 
-		if (i % 2 == 0) {
+		if (i % 2 == 0 || i == 1) {
 
 			return false;
 
 		} else {
+
 			return true;
+
 		}
 
 	}
@@ -20,6 +22,7 @@ public class FindOddNo {
 	public static void main(String[] args) {
 
 		List<Integer> list = new ArrayList<Integer>();
+	
 		list.add(5);
 		list.add(6);
 		list.add(7);
